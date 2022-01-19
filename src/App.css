@@ -1,38 +1,91 @@
-.App {
+/* SECTION 1*/
+.sec1-content {
+  z-index: 2;
+  position: absolute;
+  color: #fff;
+}
+.sec1-content>div:first-child {
+  margin-top: 85px;
+  font-size: 37px;
+  font-weight: bold;
+  line-height: 1;
+}
+.sec1-content>div:nth-child(2) {
+  font-size: 37px;
+  font-weight: bold;
+  line-height: 1;
+}
+.sec1-content>div:nth-child(3) {
+  margin-top: 10px;
+  font-size: 25px;
+}
+.sec1-content>div:nth-child(4) {
+  font-size: 25px;
+}
+.sec1-content>div:nth-child(5) {
+  font-size: 25px;
+}
+
+/* SECTION 2 */
+.sec2-bg {
+  box-shadow: 10px 10px 3px rgba(000,000,000,0.9);
+}
+.sec2-content {
+  padding: 40px 0px;
+}
+.sec2-content>div:first-child {
+  font-size: 25px;
+}
+.sec2-content>div:nth-child(2) {
+  font-size: 15px;
+}
+
+/* SECTION 3 */
+.sec3-bg {
+  background-image: url('./assets/images/3.png');
+  background-size: 100% auto;
+}
+.sec3-content {
+  padding: 100px 0px;
   text-align: center;
+  color: #fff;
+}
+.sec3-content>div:first-child {
+  font-size: 30px;
+  font-weight: bold;
+}
+.sec3-content>div:last-child {
+  margin-top: 30px;
+}
+.sec3-content>div:last-child>a {
+  padding: 7px 15px 8px 15px;
+  border: 1px solid #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* SECTION 4 */
+/* SECTION 2 */
+.sec4-bg {
+  box-shadow: 10px 10px 3px rgba(000,000,000,0.9);
+}
+.sec4-content {
+  padding: 40px 0px;
+}
+.sec4-content>div:first-child {
+  font-size: 25px;
+}
+.sec4-content>div:nth-child(2) {
+  font-size: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+@media (max-width: 1000px) {
+  .sec1-content {
+    width: 100%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .sec2-bg {
+    background-color: #001a7bff;
+    color: #fff;
   }
 }

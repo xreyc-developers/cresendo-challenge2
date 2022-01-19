@@ -1,0 +1,98 @@
+.card {
+    padding: 20px 20px 0px 20px;
+    height: 290px;
+    background-color: var(--color-primary);
+}
+/* DATE WRAP */
+.card-date-shadow {
+    position: absolute;
+    border-right: 15px solid #3b4e95ff;
+    border-top: 15px solid transparent;
+    transform: translate(-10px, -35px);
+}
+.card-date {
+    position: absolute;
+    background-color: #001254ff;
+    transform: translate(5px, -34px);
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    text-align: center;
+}
+.card-date>div:first-child {
+    margin-top: 8px;
+    font-size: 15px;
+}
+.card-date>div:last-child {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1;
+}
+/* CONTENT WRAP */
+.card-content {
+    padding-top: 50px;
+    color: #fff;
+}
+.card-content>div:first-child {
+    font-size: 30px;
+    font-weight: bold;
+}
+.card-content>div:nth-child(3) {
+    padding-top: 50px;
+}
+.card-content>div:nth-child(3)>a {
+    padding: 10px 20px 12px 20px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* CARD FOOTER */
+.card-footer {
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 50px calc(100% - 50px);
+}
+/* FOOTER PAD */
+.card-footer-pad>div:first-child {
+    background-color: var(--color-primary);
+    width: 20px;
+    height: 50px;
+    float: left;
+}
+.card-footer-pad>div:last-child {
+    border-left: 50px solid var(--color-primary);
+    border-bottom: 50px solid transparent;
+    transform: translateX(20px);
+}
+/* FOOTER ADDRESS */
+.card-footer>div:last-child {
+    padding: 10px 10px 0px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+
+
+@media (max-width: 1000px) {
+    .card {
+        background-color: #001254ff;
+        text-align: left;
+    }
+    /* DATE WRAP */
+    .card-date-shadow {
+        border-right: 15px solid #c2c2c2ff;
+    }
+    .card-date {
+        background-color: #f7f7f7ff;
+        color: #008b80ff;
+    }
+    /* FOOTER PAD */
+    .card-footer-pad>div:first-child {
+        background-color: #001254ff;
+    }
+    .card-footer-pad>div:last-child {
+        border-left: 50px solid #001254ff;
+    }
+}

@@ -1,0 +1,86 @@
+.header-grid {
+    display: grid;
+    grid-template-columns: 300px calc(100% - 300px);
+}
+
+/* LOGO SECTION*/
+.header-grid>div:first-child {
+    border-right: 1px solid rgba(000,000,000,0.1);
+}
+
+.brand {
+    padding: 10px 17px 10px 17px;
+    width: 110px;
+    position: absolute;
+    background-color: var(--color-white);
+    transform: translateY(-27px);
+  }
+  
+.brand-description {
+    height: 45px;
+    margin-left: 130px;
+}
+
+/* MENU SECTION */
+.header-grid>div:last-child {
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* MENU ITEMS */
+.header-grid>div:last-child>div {
+    align-self: flex-end;
+}
+.header-grid>div:last-child>div>a {
+    text-decoration: none;
+    color: #444;
+    font-size: 17px;
+}
+
+/* MOBILE */
+.mobile-header {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .header-grid {
+        display: none;
+    }
+    /* MOBILE */
+    .mobile-header {
+        display: block;
+    }
+    .mobile-header>img {
+        height: 50px;
+    }
+    .mobile-header-bar {
+        position: absolute;
+        font-size: 25px;
+        top: 19px;
+        right: 20px;
+        cursor: pointer;
+    }
+    .mobile-popup-bg {
+        background-color: rgba(000,000,000,0.5);
+        height: 2166px;
+        width: 100%;
+        left: 0px;
+        position: absolute;
+        z-index: 4;
+    }
+    .mobile-popup {
+        padding: 10px 10px 20px 10px;
+        position: absolute;
+        z-index: 10;
+        background-color: #fff;
+        width: 100%;
+        left: 0px;
+    }
+    .mobile-popup-menu>div {
+        margin-top: 10px;
+        padding: 5px 0px;
+        background-color: #eaebedff;
+        font-size: 17px;
+    }
+}

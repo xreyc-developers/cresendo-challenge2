@@ -1,0 +1,39 @@
+.card {
+    padding: 20px;
+    background-color: #fff;
+}
+/* CARD IMAGE*/
+.card>div>img {
+    width: 100%;
+}
+
+/* CARD FRAME */
+.card>div:first-child {
+    position: relative;
+}
+.card>div>div:first-child {
+    position: absolute;
+    border-left: 100px solid #fff;
+    border-bottom: 100px solid transparent;
+}
+
+.card>div>div:nth-child(2) {
+    position: absolute;
+    border-right: 100px solid #fff;
+    border-top: 100px solid transparent;
+    bottom: 0;
+    right: 0;
+}
+
+/* CARD DETAILS */
+.card>div:nth-child(2) {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+}
+.card>div:nth-child(3) {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+}
