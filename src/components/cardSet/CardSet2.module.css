@@ -1,6 +1,6 @@
 .card {
+    margin: 0px 2px;
     padding: 20px 20px 0px 20px;
-    height: 290px;
     background-color: var(--color-primary);
 }
 /* DATE WRAP */
@@ -34,13 +34,16 @@
     color: #fff;
 }
 .card-content>div:first-child {
+    height: 180px;
+}
+.card-content>div:first-child>div:first-child {
     font-size: 30px;
     font-weight: bold;
 }
-.card-content>div:nth-child(3) {
-    padding-top: 50px;
+.card-content>div:nth-child(2) {
+    padding-bottom: 40px;
 }
-.card-content>div:nth-child(3)>a {
+.card-content>div:nth-child(2)>a {
     padding: 10px 20px 12px 20px;
     border: 1px solid #fff;
     text-decoration: none;
@@ -52,18 +55,20 @@
     margin-bottom: 40px;
     display: grid;
     grid-template-columns: 50px calc(100% - 50px);
+    margin: 0px 2px;
 }
 /* FOOTER PAD */
 .card-footer-pad>div:first-child {
     background-color: var(--color-primary);
     width: 20px;
     height: 50px;
+    transform: translate(0px, -1px);
     float: left;
 }
 .card-footer-pad>div:last-child {
     border-left: 50px solid var(--color-primary);
     border-bottom: 50px solid transparent;
-    transform: translateX(20px);
+    transform: translate(19.9px, -1px);
 }
 /* FOOTER ADDRESS */
 .card-footer>div:last-child {
@@ -79,6 +84,9 @@
     .card {
         background-color: #001254ff;
         text-align: left;
+    }
+    .card-content>div:first-child {
+        height: 100px;
     }
     /* DATE WRAP */
     .card-date-shadow {

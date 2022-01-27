@@ -1,11 +1,21 @@
 /* SECTION 1*/
 .sec1-content {
-  z-index: 2;
-  position: absolute;
+  padding: 100px 0px;
   color: #fff;
 }
+.sec1-bg {
+  background-image: url('./assets/images/2.png');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center 35%;
+}
+
+.sec1-bg-filter {
+  background: rgb(11,131,219);
+  background: linear-gradient(90deg, rgba(11,131,219,0.5) 0%, rgba(255,255,255,0) 100%);
+}
+
 .sec1-content>div:first-child {
-  margin-top: 85px;
   font-size: 37px;
   font-weight: bold;
   line-height: 1;
@@ -82,7 +92,10 @@
 
 @media (max-width: 1000px) {
   .sec1-content {
-    width: 100%;
+    width: auto;
+  }
+  .sec1-bg-filter {
+    background: rgb(11,131,219);
   }
   .sec2-bg {
     background-color: #001a7bff;

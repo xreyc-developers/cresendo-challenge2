@@ -40,8 +40,10 @@ const CardSet2 = (props) => {
                             <div>28</div>
                         </div>
                         <div className={classes['card-content']}>
-                            <div>Insight Exchange Network</div>
-                            <div>Join us for this conference showcasing innovation.</div>
+                            <div>
+                                <div>Insight Exchange Network</div>
+                                <div>Join us for this conference showcasing innovation.</div>
+                            </div>
                             <div><a href="#">Get More Insight</a></div>
                         </div>
                     </div>
@@ -61,8 +63,10 @@ const CardSet2 = (props) => {
                             <div>12</div>
                         </div>
                         <div className={classes['card-content']}>
-                            <div>Citywide Buyer's Retreat</div>
-                            <div>Find out how banks are responding to the changing future of interest...</div>
+                            <div>
+                                <div>Citywide Buyer's Retreat</div>
+                                <div>Find out how banks are responding to the changing future of interest...</div>
+                            </div>
                             <div><a href="#">Get More Insight</a></div>
                         </div>
                     </div>
@@ -82,8 +86,10 @@ const CardSet2 = (props) => {
                             <div>6</div>
                         </div>
                         <div className={classes['card-content']}>
-                            <div>Research Exchange</div>
-                            <div>Find the best online resources to help with your investments...</div>
+                            <div>
+                                <div>Research Exchange</div>
+                                <div>Find the best online resources to help with your investments...</div>
+                            </div>
                             <div><a href="#">Get More Insight</a></div>
                         </div>
                     </div>
@@ -108,8 +114,10 @@ const CardSet2 = (props) => {
                                 <div>28</div>
                             </div>
                             <div className={classes['card-content']}>
-                                <div>Insight Exchange Network</div>
-                                <div>Join us for this conference showcasing innovation.</div>
+                                <div>
+                                    <div>Insight Exchange Network</div>
+                                    <div>Join us for this conference showcasing innovation.</div>
+                                </div>
                                 <div><a href="#">Get More Insight</a></div>
                             </div>
                         </div>
@@ -129,8 +137,10 @@ const CardSet2 = (props) => {
                                 <div>12</div>
                             </div>
                             <div className={classes['card-content']}>
-                                <div>Citywide Buyer's Retreat</div>
-                                <div>Find out how banks are responding to the changing future of interest...</div>
+                                <div>
+                                    <div>Citywide Buyer's Retreat</div>
+                                    <div>Find out how banks are responding to the changing future of interest...</div>
+                                </div>
                                 <div><a href="#">Get More Insight</a></div>
                             </div>
                         </div>
@@ -150,8 +160,10 @@ const CardSet2 = (props) => {
                                 <div>6</div>
                             </div>
                             <div className={classes['card-content']}>
-                                <div>Research Exchange</div>
-                                <div>Find the best online resources to help with your investments...</div>
+                                <div>
+                                    <div>Research Exchange</div>
+                                    <div>Find the best online resources to help with your investments...</div>
+                                </div>
                                 <div><a href="#">Get More Insight</a></div>
                             </div>
                         </div>

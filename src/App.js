@@ -11,15 +11,16 @@ function App() {
     <>
       <Header />
       
-      <section>
-        <Background1 />
-        <div className="container" style={{ height: '382px'}}>
-          <div className="sec1-content">
-            <div>ACME Wealth</div>
-            <div>Management Platforms</div>
-            <div>Investment excellence.</div>
-            <div>Diversity of thought.</div>
-            <div>Organizational strength.</div>
+      <section className="sec1-bg">
+        <div className="sec1-bg-filter">
+          <div className="container">
+            <div className="sec1-content">
+              <div>ACME Wealth</div>
+              <div>Management Platforms</div>
+              <div>Investment excellence.</div>
+              <div>Diversity of thought.</div>
+              <div>Organizational strength.</div>
+            </div>
           </div>
         </div>
       </section>
