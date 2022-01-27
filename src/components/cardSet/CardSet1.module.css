@@ -16,6 +16,7 @@
     position: absolute;
     border-left: 100px solid #fff;
     border-bottom: 100px solid transparent;
+    transform: translate(-2px, -2px);
 }
 
 .card>div>div:nth-child(2) {
@@ -24,6 +25,7 @@
     border-top: 100px solid transparent;
     bottom: 0;
     right: 0;
+    transform: translate(2px, 2px);
 }
 
 /* CARD DETAILS */
