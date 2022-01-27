@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import CardItem2Desktop from './CardItem2Desktop';
-import CardItem2Mobile from './CardItem2Mobile';
+import CardSet2Desktop from './CardSet2Desktop';
+import CardSet2Mobile from './CardSet2Mobile';
 
 function getWindowDimensions() {
     const { innerWidth: width, innerHeight: height } = window;
@@ -28,8 +28,8 @@ const CardSet2 = (props) => {
 
     return (
         <>
-            {!isMobile && <CardItem2Desktop />}
-            {isMobile && <CardItem2Mobile/>}
+            {!isMobile && <CardSet2Desktop />}
+            {isMobile && <CardSet2Mobile/>}
         </>
     )
 }

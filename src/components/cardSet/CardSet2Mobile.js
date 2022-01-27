@@ -1,7 +1,7 @@
 import { Carousel } from 'react-responsive-carousel';
 import classes from "./CardSet2.module.css";
 
-const CardItem2Mobile = (props) => {
+const CardSet2Mobile = (props) => {
     return (
         <div style={{ marginTop: '20px' }}>
             <Carousel>
@@ -79,4 +79,4 @@ const CardItem2Mobile = (props) => {
     )
 }
 
-export default CardItem2Mobile;
+export default CardSet2Mobile;

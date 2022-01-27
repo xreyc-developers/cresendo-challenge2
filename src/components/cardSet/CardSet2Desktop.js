@@ -1,5 +1,5 @@
 import classes from "./CardSet2.module.css";
-const CardItem2Desktop = (props) => {
+const CardSet2Desktop = (props) => {
     return (
         <div className="row" style={{ marginTop: '20px' }}>
             <div className="col-lg-4">
@@ -75,4 +75,4 @@ const CardItem2Desktop = (props) => {
     )
 }
 
-export default CardItem2Desktop;
+export default CardSet2Desktop;
