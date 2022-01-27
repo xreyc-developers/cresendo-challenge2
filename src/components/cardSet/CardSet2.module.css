@@ -62,13 +62,15 @@
     background-color: var(--color-primary);
     width: 20px;
     height: 50px;
-    transform: translate(0px, -1px);
+    transform: translate(0px, -2px);
     float: left;
 }
 .card-footer-pad>div:last-child {
-    border-left: 50px solid var(--color-primary);
-    border-bottom: 50px solid transparent;
-    transform: translate(19.9px, -1px);
+    background-color: transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid var(--color-primary);
+    border-left: 1px solid var(--color-primary);
+    transform: translate(19px, -2px);
 }
 /* FOOTER ADDRESS */
 .card-footer>div:last-child {
@@ -101,6 +103,7 @@
         background-color: #001254ff;
     }
     .card-footer-pad>div:last-child {
-        border-left: 50px solid #001254ff;
+        border-top: 50px solid #001254ff;
+        border-left: 1px solid #001254ff;
     }
 }
